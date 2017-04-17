@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+
+    <bean id="noteUser" class="com.test.entity.User">
+        <property name="userId" value="3434334"/>
+        <property name="userName" value="songbo.yue"/>
+    </bean>
+
+    <scan packageName="com.test.entity"></scan>
+
+</beans>
